@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MedicalAppointment</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Medical Appointment</h1>
+        <hr>
+        <span><b>Zocdoc</b></span><span>log in</span>
+        <hr>
+
+
+
+    </header>
+    <main>
+
+        <img src="images/doctor-circle.jpg" height="100px" width="100px" style="float: left"><br>
+        <br><p1><b>Dr.Richard W.Marquis,MD</b><br>
+            Monday,Oct 12-3:00 pm EDT<br>
+            500 Congress Street Quincy, MA 02169<br>
+
+        </p1>
+        <br><br>
+        <span><b>Tell us a bit about you.</b></span><br><br>
+        <span>To book your appointment, we need to verify a few things for Dr.Marquis office.</span>
+        <div>
+            <form action="https://httpbin.org/get">
+
+                <label for="email">Email: </label><br>
+                <input type="email" name="email"><br>
+                <label for="name">First name</label><br>
+                <input type="name" name="name"><br>
+                <label for="lastname">Last name: </label><br>
+                <input type="name" name="lastname"><br>
+                <label for="dob">Date of Birthday:</label><br>
+                <input type="date" name="dob"><br>
+                <br>
+                <label for="Sex">Sex: </label>
+                <input type="radio" name="Sex"><span>Male</span>
+                <input type="radio" name="Sex"><span>Female</span><br>
+                <br>
+                <label for="race">Race:</label>
+                <input type="radio" name="rase"> <span>Spanish</span>
+                <input type="radio" name="rase"> <span>Asian</span>
+                <input type="radio" name="rase"> <span>African </span>
+                <input type="radio" name="rase"> <span>Other</span>
+                <br>
+                <br>
+
+        </div>
+
+        <div>
+
+            <label for="Phone number"><b>Enter your mobile phone number</b></label><br>
+            <span><small>We'll text you to verify your account</small></span><br>
+            <input type="PhoneNumber" name="Phone number" placeholder="(___)___-___"><br>
+            <br>
+            <span><b>Addres of Residence</b></span><br>
+            <br>
+            <label for="Addres"></label>
+            <input type="Addres" name="Street Address" placeholder="Street Address"><br>
+            <label for="Addres"></label>
+            <input type="Address" name="Street Address2" placeholder="Street Address2"><br>
+            <label for="city"></label>
+            <input type="city" name="City" placeholder="City">
+            <label for="Staty"></label><br>
+            <label for="Postal"></label>
+            <input type="Postal" name="zip code" placeholder="Zip code">
+
+
+        </div>
+        <div>
+            <select> type="State" name="State" placeholder="State">
+                <option>State</option>
+                <option>MA</option>
+                <option>NY</option>
+                <option>RI</option>
+            </select>
+
+            <label for="country"></label>
+            <select>type="country" name="country" placeholder="Country">
+                <option>Country</option>
+                <option>USA</option>
+                <option>UK</option>
+                <Option>Ukrain</Option>
+                <option>Other</option>
+
+            </select>
+        </div>
+        <br>
+
+        <div>
+
+            <label for="reason>"> <b>Visit reason</b></label><br>
+            <span>
+                <smoll> Common condition and services </smoll>
+            </span><br>
+            <input type="radio" name="reason"><span>Depression</span><br>
+            <input type="radio" name="reason"><span>Acupuncture</span><br>
+            <input type="radio" name="reason"><span>Back Pain</span><br>
+            <input type="radio" name="reason"><span>Neck Pain</span><br>
+            <input type="radio" name="reason"><span>Sciatica</span><br>
+        </div>
+        <br>
+        <div>
+            <label for="Time of day"><b>Preferred time of day</b></label><br>
+            <input type="checkbox" name="time of day"><span>Early morning <small>(1)</small></span><br>
+            <span><small>Start before 10 am </small></span><br>
+            <input type="checkbox" name="time of day"><span>Morning <small>(4)</small></span><br>
+            <span><small>Start before 12 pm </small></span><br>
+            <input type="checkbox" name="time of day"><span>Afternoon <small>(4)</small></span><br>
+            <span><small>Start before 12 pm </small></span><br>
+        </div>
+        <br>
+
+        <div>
+            <label for="pwd"><b>Create a password</b></label><br>
+            <input type="password" name="Password" placeholder="********"><br>
+
+            <ul>
+
+                <li>Use at least 8 characters</li>
+                <li>Use letters</li>
+                <li>Use numbers</li>
+                <li>Use special characters,like @#$%&*</li>
+
+            </ul>
+        </div>
+        <br>
+        <div>
+            <div>
+                <input type="checkbox"><span>I have read and accept the <a href="term.html/term.html"
+                        target="_blank">Terns
+                        of Use</a>and<a href="term.html/policy.html" target="_blank">Privacy
+                        Policy</a></span>
+            </div>
+
+
+            <br>
+
+            <input type="submit">
+            <input type="reset">
+
+        </div>
+        <hr>
+        <h2><small> Creat a Log in Page</small></h2>
+        <hr>
+        <label for="email"></label>
+        <input type="email" name="email" placeholder="Email address"><br>
+        <label for="pwd"></label><br>
+        <input type="password" name="pwd" placeholder="Password">
+
+        <br><br>
+
+        <input type="submit">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </main>
+</body>
+
+</html>
